@@ -8,7 +8,10 @@ document.addEventListener('DOMContentLoaded', function () {
     JSON.parse(trainingSchedule);
   console.log(trainingList);
   if (!localStorage.getItem(localStorageKey)) {
-    localStorage.setItem(localStorageKey, trainingList);
+    localStorage.setItem(
+      localStorageKey,
+      JSON.stringify(trainingList)
+    );
   }
 
   const trainings = document.querySelector(
