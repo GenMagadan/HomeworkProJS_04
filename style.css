@@ -23,4 +23,26 @@
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
+  gap: 15px;
+}
+.container__schedule-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 15px;
+}
+.container li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.container button {
+  cursor: pointer;
+}
+
+.schedule-name {
+  font-style: italic;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */

@@ -24,4 +24,23 @@
 .container {
   @include centerFlex();
   flex-direction: column;
+  gap: 15px;
+  &__schedule-box {
+    @include centerFlex();
+    flex-direction: column;
+    gap: 15px;
+  }
+  li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  button {
+    cursor: pointer;
+  }
+}
+
+.schedule-name {
+  font-style: italic;
+  font-weight: bold;
 }
